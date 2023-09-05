@@ -5,7 +5,7 @@ function Hero() {
     <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <Image className="object-cover object-center rounded" alt="hero" src="/Ecommerce web page-cuate.png"/>
+      <Image className="object-cover object-center rounded" width={720} height={240} alt="hero" src="/Ecommerce web page-cuate.png"/>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Knausgaard typewriter readymade marfa</h1>
