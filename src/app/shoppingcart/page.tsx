@@ -1,11 +1,11 @@
-'use client'
+'use client';
 import { useState, useEffect } from 'react'
 import { ProductType } from "@/interface";
 import { StarIcon as StarIconOutline } from "@heroicons/react/24/outline";
 import { StarIcon } from "@heroicons/react/20/solid";
 import Imager from "@/components/image";
 
-function ShoppingCard() {
+export default function ShoppingCard() {
   const [products, setProducts] = useState<ProductType[]>(JSON.parse(localStorage.getItem("carts") as string) || []);
   const [Total, setTotal] = useState<number>(0);
 
@@ -171,5 +171,3 @@ function ShoppingCard() {
     </>
   )
 }
-
-export default ShoppingCard

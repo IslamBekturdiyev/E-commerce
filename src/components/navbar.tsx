@@ -1,5 +1,5 @@
+'use client'
 import Link from "next/link";
-import Image from "next/image";
 
 function Navbar() {
   return (
@@ -11,7 +11,7 @@ function Navbar() {
       <div className="flex items-center space-x-2.5 text-sm">
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
         </nav>
-        <Link href={"/shopping-cart"}>
+        <Link href={"/shoppingcart"}>
           <button className="button bg-blue-600 text-white border-transparent hover:border-blue-600 hover:bg-transparent hover:text-black">
             My Bag
           </button>
