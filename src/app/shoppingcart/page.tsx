@@ -6,7 +6,7 @@ import { StarIcon } from "@heroicons/react/20/solid";
 import Imager from "@/components/image";
 
 export default function ShoppingCard() {
-  const [products, setProducts] = useState<ProductType[]>(JSON.parse(localStorage.getItem("carts") as string) || []);
+  const [products, setProducts] = useState<ProductType[]>(typeof window !== 'undefined' ? JSON.parse(localStorage.getItem("carts") as string) : []);
   const [Total, setTotal] = useState<number>(0);
 
   const remove = (id: number) => {
