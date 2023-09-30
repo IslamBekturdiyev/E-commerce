@@ -122,8 +122,8 @@ export default function ShoppingCard() {
                     </div>
                     <div className="flex items-center space-x-4">
                       <p className="text-sm font-semibold">${product.price * product.quantity}</p>
-                      <svg onClick={() => remove(product.id)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-5 w-5 cursor-pointer duration-150 hover:text-red-500">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                      <svg onClick={() => remove(product.id)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-5 w-5 cursor-pointer duration-150 hover:text-red-500">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                       </svg>
                     </div>
                   </div>
@@ -161,8 +161,8 @@ export default function ShoppingCard() {
           <div className="container flex items-center min-h-screen px-6 py-12 mx-auto">
             <div className="flex flex-col items-center max-w-full mx-auto text-center">
               <p className="p-3 text-sm font-medium text-blue-500 rounded-full bg-blue-50 ">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="w-16 h-16">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-16 h-16">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
                 </svg>
               </p>
               <h1 className="mt-3 text-2xl font-bold text-gray-800 w-full  md:text-5xl">Shopping Card is Empty</h1>

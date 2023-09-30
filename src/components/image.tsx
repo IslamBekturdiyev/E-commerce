@@ -18,6 +18,8 @@ const [isLoading, setLoading] = useState(true)
             <Image 
                 src={product.image} 
                 alt={product.title} 
+                priority={true}
+                sizes="100%"
                 fill 
                 className={`object-contain duration-700 ease-in-out group-hover:opacity-75 ${
                     isLoading 
@@ -30,6 +32,8 @@ const [isLoading, setLoading] = useState(true)
             <Image 
             src={product.image} 
             alt={product.title} 
+            priority={true}
+            sizes=""
             width={300}
             height={400}
             className={`object-contain duration-700 ease-in-out group-hover:opacity-75 ${
